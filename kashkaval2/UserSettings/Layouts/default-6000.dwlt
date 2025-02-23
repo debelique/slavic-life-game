@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1357
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 130
+  controlID: 49
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 852
+    y: 907
     width: 2823
     height: 447
   m_SerializedDataModeController:
@@ -389,7 +389,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Music
+    - Assets/Sprites
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -399,16 +399,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Music
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\PROJECTS\UNITY SOURCE-CONTROL\slavic-life-game\kashkaval2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e6b10000
-    m_LastClickedID: 45542
-    m_ExpandedIDs: 0000000042ae0000
+    m_SelectedIDs: 20bc0000
+    m_LastClickedID: 48160
+    m_ExpandedIDs: 00000000bcbb000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -437,7 +437,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000042ae0000
+    m_ExpandedIDs: 00000000bcbb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300000000000094f90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -516,8 +516,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 2825
-    y: 24
+    x: 2824
+    y: 79
     width: 615
     height: 1275
   m_SerializedDataModeController:
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 621
     height: 802
   m_SerializedDataModeController:
@@ -585,7 +585,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0cfbffffb0ad0000
+      m_ExpandedIDs: 18f5ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -631,8 +631,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 623
-    y: 24
+    x: 622
+    y: 79
     width: 1053
     height: 802
   m_SerializedDataModeController:
@@ -1175,9 +1175,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.5724959, y: -0.778102, z: 0.059535295}
+    m_Target: {x: -1.3144108, y: 1.8295915, z: -0.021872014}
     speed: 2
-    m_Value: {x: -0.5724959, y: -0.778102, z: 0.059535295}
+    m_Value: {x: -1.3144108, y: 1.8295915, z: -0.021872014}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 2
@@ -1227,9 +1227,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.6036887
+    m_Target: 12.187109
     speed: 2
-    m_Value: 3.6036887
+    m_Value: 12.187109
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1258,7 +1258,10 @@ MonoBehaviour:
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
-  m_LastDebugDrawMode: 35
+  m_LastDebugDrawMode:
+    drawMode: 35
+    name: 
+    section: 
   m_ViewIsLockedToObject: 0
 --- !u!114 &18
 MonoBehaviour:
@@ -1281,8 +1284,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1678
-    y: 24
+    x: 1677
+    y: 79
     width: 1145
     height: 802
   m_SerializedDataModeController:
@@ -1326,7 +1329,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -1340,18 +1343,18 @@ MonoBehaviour:
       y: 21
       width: 1145
       height: 781
-    m_Scale: {x: 0.44726562, y: 0.44726562}
-    m_Translation: {x: 572.5, y: 390.5}
+    m_Scale: {x: 0.46068358, y: 0.46068358}
+    m_Translation: {x: 579.355, y: 390.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1280
-      y: -873.08295
-      width: 2560
-      height: 1746.1659
+      x: -1257.5985
+      y: -847.6534
+      width: 2485.437
+      height: 1695.3068
     m_MinimalGUI: 1
   m_defaultScale: 0.44726562
   m_LastWindowPixelSize: {x: 1145, y: 802}
