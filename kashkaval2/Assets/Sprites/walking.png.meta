@@ -134,15 +134,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walking_0
+      name: walking_3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 1191
-        width: 476
-        height: 856
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 73
+        y: 1194
+        width: 473
+        height: 854
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -156,15 +156,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_1
+      name: walking_2
       rect:
         serializedVersion: 2
-        x: 549
-        y: 1182
-        width: 592
-        height: 865
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 548
+        y: 1183
+        width: 589
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -178,15 +178,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_2
+      name: walking_1
       rect:
         serializedVersion: 2
-        x: 1143
-        y: 1167
-        width: 523
-        height: 880
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1145
+        y: 1168
+        width: 520
+        height: 878
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,15 +200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_3
+      name: walking_0
       rect:
         serializedVersion: 2
-        x: 1668
-        y: 1149
-        width: 246
-        height: 898
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1669
+        y: 1148
+        width: 244
+        height: 896
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,15 +222,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_4
+      name: walking_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 291
-        width: 482
-        height: 856
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 3
+        y: 294
+        width: 478
+        height: 854
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,15 +244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_5
+      name: walking_6
       rect:
         serializedVersion: 2
-        x: 485
-        y: 282
-        width: 591
-        height: 865
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 486
+        y: 283
+        width: 588
+        height: 863
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,15 +266,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_6
+      name: walking_5
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 267
-        width: 523
-        height: 880
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1081
+        y: 271
+        width: 521
+        height: 877
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,15 +288,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walking_7
+      name: walking_4
       rect:
         serializedVersion: 2
-        x: 1603
-        y: 250
-        width: 311
-        height: 897
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1604
+        y: 251
+        width: 309
+        height: 895
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      walking_0: -2987179049035696926
-      walking_1: -4154626181522259262
-      walking_2: -7423615830899905516
-      walking_3: 4036955197636849006
-      walking_4: -7918336409512017615
-      walking_5: 1250286383453380257
-      walking_6: -1129278912610544731
-      walking_7: -7318767380291708578
+      walking_0: 4036955197636849006
+      walking_1: -7423615830899905516
+      walking_2: -4154626181522259262
+      walking_3: -2987179049035696926
+      walking_4: -7318767380291708578
+      walking_5: -1129278912610544731
+      walking_6: 1250286383453380257
+      walking_7: -7918336409512017615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
