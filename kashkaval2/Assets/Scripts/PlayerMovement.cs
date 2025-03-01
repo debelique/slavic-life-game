@@ -21,9 +21,11 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        Flip();
+        // Set animation state
+        bool isMoving = Mathf.Abs(horizontal) > 0.1f;
+        animator.SetBool("isWalking", isMoving);
 
-        animator.SetBool("isWalking", horizontal != 0);
+        Flip();
     }
 
     private void FixedUpdate()
