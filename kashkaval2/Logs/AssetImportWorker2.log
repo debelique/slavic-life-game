@@ -184,3 +184,7 @@ Unloading 6532 unused Assets / (6.0 MB). Loaded Objects now: 7230.
 Memory consumption went from 173.3 MB to 167.4 MB.
 Total: 75.291800 ms (FindLiveObjects: 1.843500 ms CreateObjectMapping: 5.098600 ms MarkObjects: 18.947300 ms  DeleteObjects: 49.399700 ms)
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
