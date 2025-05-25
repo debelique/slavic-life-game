@@ -9,11 +9,11 @@ D:\PROGRAMS\Unity\Editor\6000.0.38f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker2
 -projectPath
 D:/PROJECTS/UNITY SOURCE-CONTROL/slavic-life-game/kashkaval2
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker2.log
 -srvPort
 6131
 -job-worker-count
@@ -59,14 +59,14 @@ D:/PROJECTS/UNITY SOURCE-CONTROL/slavic-life-game/kashkaval2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8280]  Target information:
+Player connection [20400]  Target information:
 
-Player connection [8280]  * "[IP] 172.22.160.1 [Port] 0 [Flags] 2 [Guid] 253047403 [EditorId] 253047403 [Version] 1048832 [Id] WindowsEditor(7,NIKI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20400]  * "[IP] 172.22.160.1 [Port] 0 [Flags] 2 [Guid] 3445163586 [EditorId] 3445163586 [Version] 1048832 [Id] WindowsEditor(7,NIKI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8280]  * "[IP] 192.168.2.102 [Port] 0 [Flags] 2 [Guid] 253047403 [EditorId] 253047403 [Version] 1048832 [Id] WindowsEditor(7,NIKI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20400]  * "[IP] 192.168.2.102 [Port] 0 [Flags] 2 [Guid] 3445163586 [EditorId] 3445163586 [Version] 1048832 [Id] WindowsEditor(7,NIKI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8280] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8280] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20400] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20400] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -78,7 +78,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.38f1 (82314a941f2d)
 [Subsystems] Discovering subsystems at path D:/PROGRAMS/Unity/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
@@ -94,43 +94,43 @@ Initialize mono
 Mono path[0] = 'D:/PROGRAMS/Unity/Editor/6000.0.38f1/Editor/Data/Managed'
 Mono path[1] = 'D:/PROGRAMS/Unity/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/PROGRAMS/Unity/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/PROGRAMS/Unity/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003446 seconds.
-- Loaded All Assemblies, in  0.704 seconds
+Registered in 0.002850 seconds.
+- Loaded All Assemblies, in  0.603 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.567 seconds
-Domain Reload Profiling: 1257ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1202ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
+	RebuildCommonClasses (56ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (304ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
 		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (292ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (261ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (219ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (568ms)
+	FinalizeReload (600ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (488ms)
+		SetupLoadedEditorAssemblies (534ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (261ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,64 +139,48 @@ Domain Reload Profiling: 1257ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.503 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.667 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.542 seconds
-Domain Reload Profiling: 3042ms
-	BeginReloadAssembly (314ms)
+- Finished resetting the current domain, in  1.551 seconds
+Domain Reload Profiling: 3217ms
+	BeginReloadAssembly (277ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (995ms)
-		LoadAssemblies (641ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1243ms)
+		LoadAssemblies (622ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (543ms)
-			TypeCache.Refresh (403ms)
-				TypeCache.ScanAssembly (370ms)
-			BuildScriptInfoCaches (112ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1543ms)
+		AnalyzeDomain (794ms)
+			TypeCache.Refresh (578ms)
+				TypeCache.ScanAssembly (535ms)
+			BuildScriptInfoCaches (180ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (1552ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1325ms)
+		SetupLoadedEditorAssemblies (1266ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (232ms)
-			ProcessInitializeOnLoadAttributes (913ms)
-			ProcessInitializeOnLoadMethodAttributes (169ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (904ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6532 unused Assets / (4.2 MB). Loaded Objects now: 7230.
-Memory consumption went from 173.6 MB to 169.4 MB.
-Total: 56.956900 ms (FindLiveObjects: 2.091000 ms CreateObjectMapping: 5.405400 ms MarkObjects: 30.801000 ms  DeleteObjects: 18.657800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 538418.469006 seconds.
-  path: Assets/Settings/UniversalRP.asset
-  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2079f76a9332f10bfef0712a96e3a52d') in 0.1809907 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Materials/player.mat
-  artifactKey: Guid(ffcebb09098dc9b4fb477301ea90eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/player.mat using Guid(ffcebb09098dc9b4fb477301ea90eb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b463d8d7918aba2ba47ecb858e2c550') in 1.1632183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 6532 unused Assets / (6.0 MB). Loaded Objects now: 7230.
+Memory consumption went from 173.3 MB to 167.4 MB.
+Total: 75.291800 ms (FindLiveObjects: 1.843500 ms CreateObjectMapping: 5.098600 ms MarkObjects: 18.947300 ms  DeleteObjects: 49.399700 ms)
 
