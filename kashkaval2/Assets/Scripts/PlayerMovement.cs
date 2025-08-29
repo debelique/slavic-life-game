@@ -4,8 +4,14 @@ public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
     private float speed = 8f;
-    private float jumpingPower = 16f;
     private bool isFacingRight = true;
+
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -14,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
+
+        // Set animation state
+        bool isMoving = Mathf.Abs(horizontal) > 0.1f;
+        animator.SetBool("isWalking", isMoving);
 
         Flip();
     }
